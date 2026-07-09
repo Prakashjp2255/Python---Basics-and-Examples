@@ -148,8 +148,6 @@ Call the show method on c1
 
 '''
 
-
-
 # Create the Car class
 class car : 
      def __init__(self , brand) : 
@@ -158,6 +156,8 @@ class car :
          return self.brand 
 # Create an object
 c1 = car("Ford") 
-a = c1.show()  
-print(a)
+a = c1.show() 
+print(a) 
+
+
 
